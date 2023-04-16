@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectItem from "../Pages/ProjectItem/index";
-import talentBridge from "../../../assets/TalentBridge-02.png";
-import weatherDash from "../../../assets/WeatherDashboard.png";
-import teamProfileGen from "../../../assets/teamProfileGen.png";
-import passwordGen from "../../../assets/passwordGen.png";
-import localNewsApp from "../../../assets/localNewsApp.png";
-import workDayScheduler from "../../../assets/WorkDayScheduler.png";
+import talentBridge from "../../assets/TalentBridge-02.png";
+import weatherDash from "../../assets/WeatherDashboard.png";
+import teamProfileGen from "../../assets/teamProfileGen.png";
+import passwordGen from "../../assets/passwordGen.png";
+import localNewsApp from "../../assets/localNewsApp.png";
+import workDayScheduler from "../../assets/WorkDayScheduler.png";
 
 
 function ProjectList(props) {
