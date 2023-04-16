@@ -23,9 +23,11 @@ export default function About() {
                         made the transition to coding at the age of 40. After spending many years in the television industry, I decided to explore a new field that could challenge 
                         me intellectually and provide me with the opportunity to make a difference in the world through technology.
                         <br/>
+                        <br/>
                         I attended the Australian Film, Television and Radio School (AFTRS), where I honed my skills in directing and screenwriting and while I am still passionate 
                         about screenwriting, I am now fully committed to pursuing my passion for coding and 
                         building innovative applications and software that can change people's lives for the better.
+                        <br/>
                         <br/>
                         Outside of work, I am a proud husband and father to a beautiful wife and a two-year-old daughter. In my free time, I enjoy spending time with my family, 
                         reading about new technological advancements and keeping up with the latest trends in the world of coding. Thank you for taking the time to learn a little 
