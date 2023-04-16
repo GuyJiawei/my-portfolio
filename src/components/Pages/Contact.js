@@ -72,13 +72,13 @@ export default function Contact() {
               </div>
               <div className="form-floating">
                 <textarea className="form-control" placeholder="Send me some good news!" id="floatingTextarea2" name='user_message' value={message} onChange={handleMessageChange} onBlur={() => setMessageTouched(true)} ></textarea>
-                <label for="floatingTextarea2">Tell me something good!</label>
+                <label for="floatingTextarea2">Email body</label>
                 <div className='alert'>
                   {touchedMessage ? (isMessageValid ? " " : "Message Required") : null}
                 </div>
                 <button type="submit" value="Send" className="btn btn-outline-success">Send Message</button>
                 {!toast ? null : <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                  <strong>Email Sent! Thanks for reaching out</strong>
+                  <strong>Thanks for getting in touch. I'll get back you as soon as I can.</strong>
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>

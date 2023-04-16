@@ -1,0 +1,29 @@
+.footerStyles {
+    display: flex;
+    flex-direction: row;
+    justify-Content: center;
+    align-items: center;
+    align-items: baseline;
+    background-color: rgb(216, 185, 117);
+    height: 100px;
+}
+
+.iconStyles {
+    font-size: 2rem;
+    padding: 0.2rem;
+}
+.color{
+    color: black;
+}
+.git:hover {
+     color: dimgrey !important;
+     cursor: pointer;
+}
+.linkedin:hover {
+    color: blue !important;
+    cursor: pointer;
+}
+
+footer{
+    width: 100vw;
+}
