@@ -1,0 +1,14 @@
+.title {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+.card{
+    margin: 2rem;
+    padding-left: 2rem;
+}
+li {
+    list-style: none;
+}
+h3{
+    text-decoration: underline;
+}

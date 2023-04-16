@@ -7,6 +7,8 @@ import passwordGen from "../../assets/passwordGen.png";
 import localNewsApp from "../../assets/localNewsApp.png";
 import workDayScheduler from "../../assets/WorkDayScheduler.png";
 
+import "../Pages/ProjectsList.css"
+
 
 function ProjectList(props) {
 
