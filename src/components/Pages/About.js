@@ -19,20 +19,9 @@ export default function About() {
                     <div className="col-md-8">
                       <div className="card-body">
                         <h5 className="card-title">A little about me..</h5>
-                        <p className="card-text">Hello, and welcome to my coding portfolio! My name is Guy Anderson, and I am a former television producer who has recently 
-                        made the transition to coding at the age of 40. After spending many years in the television industry, I decided to explore a new field that could challenge 
-                        me intellectually and provide me with the opportunity to make a difference in the world through technology.
-                        <br/>
-                        <br/>
-                        I attended the Australian Film, Television and Radio School (AFTRS), where I honed my skills in directing and screenwriting and while I am still passionate 
-                        about screenwriting, I am now fully committed to pursuing my passion for coding and 
-                        building innovative applications and software that can change people's lives for the better.
-                        <br/>
-                        <br/>
-                        Outside of work, I am a proud husband and father to a beautiful wife and a two-year-old daughter. In my free time, I enjoy spending time with my family, 
-                        reading about new technological advancements and keeping up with the latest trends in the world of coding. Thank you for taking the time to learn a little 
-                        bit about me. Please feel free to explore my portfolio and reach out if you have any questions or would like to collaborate on a project. I look forward to 
-                        connecting with you!</p>
+                        <p className="card-text">I'm Guy Anderson, a former TV producer who transitioned to coding at 40. I've made a late life switch of industries and I'm now fully committed 
+                        to building innovative software that can make a difference. When not coding, I enjoy family time, gaming and keeping up with tech trends. Check out my portfolio and 
+                        let's connect!</p>
                       </div>
                     </div>
                   </div>

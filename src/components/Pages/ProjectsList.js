@@ -14,42 +14,42 @@ function ProjectList(props) {
 
     const projects = [
         {
-            image: {talentBridge},
+            image: talentBridge,
             name: "Talent Bridge",
             description: "TalentBridge is a user-friendly app designed to help you find your dream job quickly and easily.",
             link: "https://talent-bridge-app.herokuapp.com/",
             repo: "https://github.com/GuyJiawei/TalentBridge-App"
         },
         {
-            image: {weatherDash},
+            image: weatherDash,
             name: "Weather Dashboard",
             description: "Weather forecast application that lets you check a locations current weather and five-day forecast.",
             link: "https://guyjiawei.github.io/weather-dashboard/",
             repo: "https://github.com/GuyJiawei/weather-dashboard"
         },
         {
-            image: {teamProfileGen},
+            image: teamProfileGen,
             name: "Team Profile Generator",
             description: "Node.js command-line application that takes in information about employees and generates an HTML webpage that displays the user input data.",
             link: "https://github.com/GuyJiawei/team_profile_generator",
             repo: "https://github.com/GuyJiawei/team_profile_generator"
         },
         {
-            image: {passwordGen},
+            image: passwordGen,
             name: "Password Generator",
             description: "Application that enables employees to generate random passwords based on criteria that they have selected.",
             link: "https://guyjiawei.github.io/js_password_generator/",
             repo: "https://github.com/GuyJiawei/js_password_generator"
         },
         {
-            image: {localNewsApp},
+            image: localNewsApp,
             name: "Get Local News and Weather App",
             description: "A website which allows for users to search for local news and weather.",
             link: "https://marwaynemclovin.github.io/Media-and-News-Geolocation/",
             repo: "https://github.com/Marwaynemclovin/Media-and-News-Geolocation"
         },
         {
-            image: {workDayScheduler},
+            image: workDayScheduler,
             name: "Work Day Scheduler",
             description: "An hourly planner to store tasks and track the hours as they pass.",
             link: "https://guyjiawei.github.io/work-day-scheduler/",
@@ -58,7 +58,7 @@ function ProjectList(props) {
         
     ]
     return (
-        <div>
+        <div className="row justify-content-center">
             {projects.map((project, idx) => <ProjectItem key={idx} image={project.image} name={project.name} description={project.description}/>)}
         </div>
     )
