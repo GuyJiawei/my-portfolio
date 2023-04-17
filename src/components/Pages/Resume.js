@@ -4,7 +4,6 @@ import './Resume.css';
 export default function Resume() {
   return (
     <div>
-      <h2 className='title'>Resume:</h2>
       <div class="container text-center">
         <div class="row">
           <div class="col">

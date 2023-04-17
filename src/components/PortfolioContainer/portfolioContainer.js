@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 import About from "../Pages/About";
 import ProjectsList from "../Pages/ProjectsList";
 import Resume from "../Pages/Resume";
 import Contact from "../Pages/Contact"
 
+import "../PortfolioContainer/portfolioContainer.css"
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -29,10 +29,9 @@ export default function PortfolioContainer() {
     return (
       <div className='portfolio-container'>
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-        <div style={{ height: "80vh" }}>
+        <div>
           {renderPage()}
         </div>
-        <Footer />
       </div>
     );
   }
